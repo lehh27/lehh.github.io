@@ -7,7 +7,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -21,7 +21,7 @@ body {
     font-weight: 800;
     float: left;
     font-family: courier;
-    color: #000000;
+    color: #364f6b;
 }
 
 .menu {
@@ -36,9 +36,9 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: #2542ff;
+    background: #38a5ff;
     z-index: 1;
-    border-bottom: 1px solid #1dfa84;
+    border-bottom: 1px solid #364f6b;
 }
 
 nav ul {
@@ -62,6 +62,7 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+    color: #ff1f01;
 }
 
 section {
@@ -79,46 +80,46 @@ section {
     font-size: 20px;
     font-weight: bold;
     font-family: 'comic sans ms';
-    color: #212121;
+    color: #364f6b;
 }
 
 h2 {
     font-family: 'comic sans ms';
     font-weight: 800;
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 20px;
-    color: #212121;
+    color: #364f6b;
     width: 100%;
     line-height: 50px;
 }
 
 a.tbl-biru {
-    background: #0e62ff;
+    background: #3f72af;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
-    color: #000000;
+    color: #FFFFFF;
     cursor: pointer;
     font-weight: bold;
 }
 
 a.tbl-biru:hover {
-    background: #24f3a3;
+    background: #fc5185;
     text-decoration: none;
 }
 
 a.tbl-pink {
-    background: #125ee1;
+    background: #3f72af;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
-    color: #000000;
+    color: #FFFFFF;
     cursor: pointer;
     font-weight: bold;
 }
 
 a.tbl-pink:hover {
-    background: #F8DE22;
+    background: #fc5185;
     text-decoration: none;
 }
 
@@ -154,7 +155,7 @@ p {
     font-weight: 800;
     font-size: 25px;
     text-align: center;
-    color: #212121;
+    color: #364f6b;
 }
 
 .partner-list {
@@ -197,7 +198,7 @@ h3 {
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
-    color: #212121;
+    color: #364f6b;
     width: 100%;
     line-height: 50px;
 }
@@ -209,7 +210,7 @@ h3 {
     margin-top: 50px;
 }
 
-@media screen and (max-width: 911.98px) {
+@media screen and (max-width: 991.98px) {
     .wrapper {
         width: 90%;
     }
